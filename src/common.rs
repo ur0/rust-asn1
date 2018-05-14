@@ -10,4 +10,5 @@ pub enum Tag {
     PrintableString = 0x13,
     UTCTime = 0x17,
     Sequence = (0x10 | ASN1_CONSTRUCTED_FLAG),
+    Set = (0x11 | ASN1_CONSTRUCTED_FLAG),
 }
